@@ -1,0 +1,160 @@
+body{
+    padding: 0px;
+text-align: center;
+}
+
+
+
+
+
+
+.title{
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+background-color: #0B2447;
+padding-bottom: 300px;
+
+}
+
+
+.heading{
+    
+    color: aliceblue;
+    font-size: 60px;;
+position: relative;
+top:120px;
+}
+
+.titleimage{
+border-radius: 50px;
+width: 50px;
+height: 50px;
+
+}
+
+
+#middle-part{
+margin-top: 40px;
+    text-align: center;
+padding-top: 100px;
+
+
+}
+
+
+.razorpay-img{
+   width: 100%;
+   height: 100%;
+}
+
+.startup-info{
+    margin: 100px;
+}
+
+
+
+.navinfo{
+
+    position: relative;
+    left:1010px;
+}
+
+.ecell-link{
+    position: relative;
+    left: 100px;
+}
+
+
+
+.flip-card {
+    margin:6.5rem;
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; 
+  }
+    .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+ 
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+  }
+  
+
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  
+  .flip-card-back {
+    background-color:#A5D7E8;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
+  footer{
+    background-color:#0B2447;
+    padding-bottom: 60px;
+    color: aliceblue;
+
+  }
+
+  .letter{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .soical-net{
+
+    font-size: 1.5rem;
+  margin: 2rem;
+  }
+
+  .footer-pro{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+  }
+
+
+  
+  .soical-network{
+position: relative;
+
+    font-size: 1.5rem;
+  margin: 1rem;
+  }
+
+  hr{
+    position: relative;
+    left: 380px;
+  height: 3px;
+    width: 50%;
+  }
+
+  .email-pro{
+    color: #f1f1f1;
+   text-decoration: none;
+  }
+
+  .email-pro:hover{
+    color: #A5D7E8;
+  }
